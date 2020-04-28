@@ -9,11 +9,11 @@ function Signup() {
 
         <Navbar />
 
-        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-        <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        <FormField label="Name" type="text" placeholder="Enter your name" />
+        <FormField label="Email" type="email" placeholder="Enter your e-mail" />
+        <FormField label="Password" type="password" placeholder="Enter your password" />
 
-        <CoolButton className="button is-rounded my-class is-danger is-small">Button 1</CoolButton>
-        <CoolButton className="button is-small is-success">Button 2</CoolButton>
+        <CoolButton className="button is-warning is-normal">Submit</CoolButton>
 
         </div>
     )
